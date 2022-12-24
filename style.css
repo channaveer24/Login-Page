@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+    padding: 0;
+    /* background-image: url(img5.jpg);
+    -webkit-background-size:Cover;
+    background-size: cover; */
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+
+}
+.my-bootstrap-row {
+    background-image: url(img9.jpg) ; 
+    background-position:fixed; 
+    background-size: 100% 100%; 
+    background-repeat: no-repeat; 
+    height:700px;  /* image height is also 700px */
+    
+    
+}
+.wpaper{
+    width: 400px;
+    height: 420px;
+    color:black;
+    top: 50%;
+    left:50%;
+    padding:60px 30px;
+    position:absolute;
+    transform:translate(-50%,-50%);
+    box-sizing: border-box;
+    box-shadow:8px 8px 50px #000;
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0,0.5);
+    /* <> */
+    
+
+}
+h1{
+    margin: 0 ;
+    padding: 0;
+    font-weight: bolder;
+    font-size: 30px;
+    color: rgb(255, 252, 252);
+    text-align: center;
+    margin-bottom: 8%;
+    font-family: sans-serif;
+
+}
+.wpaper input{
+    width: 100%;
+    margin-bottom: 20px;
+
+}
+.wpaper input[type=text],.wpaper input[type=password],.wpaper input[type=email]{
+    border: none;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    background:transparent;
+    outline:none;
+    height:30px;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.699);
+}
+.wpaper input[type=submit]{
+    border:none ;
+    outline: none;
+    height:40px;
+    background-color: #f9004d;
+    border-radius: 100px;
+    cursor: pointer;
+    box-shadow: 2px 4px 5px #000,1px 1px 15px #858585;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding:13px 30px;
+    border-radius: 30px;
+    text-decoration:none;
+}
+.wpaper input[type=submit]:hover{
+    background-color: transparent;
+    border:2px solid #f9004d;
+    cursor: pointer;
+}
+.wpaper a{
+    font-size: 14px;
+    text-decoration: none;
+    color: rgb(5, 5, 5);
+    
+}
+.wpaper a:hover{
+    color:#fff;
+    opacity:1;
+}
+#overlay-area{
+    position: absolute;
+    background-color:rgba(0, 0, 0,0.5) ;
+    z-index:-5;
+    height:100%;
+    width: 100%;
+    top:0;
+    bottom: 0;
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: rgb(255, 255, 255);
+    opacity: 1; /* Firefox */
+  }
